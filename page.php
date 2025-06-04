@@ -29,6 +29,8 @@ $snelTitle = get_sub_field('snellink_titel');
                         <?php get_template_part('template-parts/components/all-clients'); ?>
                 <?php elseif (get_row_layout() == 'aanvraag_form'): ?>
                         <?php get_template_part('template-parts/components/aanvraag_form'); ?>
+                <?php elseif (get_row_layout() == 'recent_projects'): ?>
+                        <?php get_template_part('template-parts/components/recent_projects'); ?>
                 <?php endif; ?>
 
         <?php endwhile; ?>

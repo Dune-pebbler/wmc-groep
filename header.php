@@ -14,65 +14,67 @@ $no_hero = (isset($hero_settings) && is_array($hero_settings) && array_key_exist
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3">
     <meta name="copyright" content="©<?php echo date("Y"); ?> - Dennis Guijt, Katwijk" />
     <link rel="profile" href="https://gmpg.org/xfn/11">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/overrule.css">
+
     <?php wp_head(); ?>
 </head>
 
 
 <style>
-.uk-grid-medium>div>:first-child {
-    margin-top: 0;
-}
-
-.gform_required_legend {
-    display: none;
-}
-
-.gform_wrapper.gravity-theme .gform_footer .gform_button {
-    padding: 8px 40px !important;
-    margin-bottom: 0;
-    font-size: 1rem;
-    color: #a18a6e !important;
-    font-weight: 600;
-    background: #151515 !important;
-    border: 0 !important;
-    border-radius: 20px;
-    box-shadow: none !important;
-    transition: 0.3s ease;
-    cursor: pointer;
-}
-
-.gform_wrapper.gravity-theme .gform_footer .gform_button:hover {
-    color: #fff !important;
-    background: #111 !important;
-    padding: 8px 42px !important;
-}
-
-.gform_validation_errors h2 {
-    letter-spacing: unset !important;
-}
-
-.gfield_validation_message {
-    display: none;
-}
-
-.main-logo {
-    transform: translate(0, -25%);
-    margin-left: 16px
-}
-
-@media only screen and (max-width: 768px) {
-    .main-logo {
-        transform: translate(-50%, 0);
-        left: 50%;
+    .uk-grid-medium>div>:first-child {
+        margin-top: 0;
     }
-}
+
+    .gform_required_legend {
+        display: none;
+    }
+
+    .gform_wrapper.gravity-theme .gform_footer .gform_button {
+        padding: 8px 40px !important;
+        margin-bottom: 0;
+        font-size: 1rem;
+        color: #a18a6e !important;
+        font-weight: 600;
+        background: #151515 !important;
+        border: 0 !important;
+        border-radius: 20px;
+        box-shadow: none !important;
+        transition: 0.3s ease;
+        cursor: pointer;
+    }
+
+    .gform_wrapper.gravity-theme .gform_footer .gform_button:hover {
+        color: #fff !important;
+        background: #111 !important;
+        padding: 8px 42px !important;
+    }
+
+    .gform_validation_errors h2 {
+        letter-spacing: unset !important;
+    }
+
+    .gfield_validation_message {
+        display: none;
+    }
+
+    .main-logo {
+        transform: translate(0, -25%);
+        margin-left: 16px
+    }
+
+    @media only screen and (max-width: 768px) {
+        .main-logo {
+            transform: translate(-50%, 0);
+            left: 50%;
+        }
+    }
 </style>
 
 <body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
 
     <section class="uk-section hi-tim c-top<?php echo $no_hero;
-	echo (is_front_page()) ? ' c-top-home' : ''; ?>">
+    echo (is_front_page()) ? ' c-top-home' : ''; ?>">
         <a href="tel:<?php echo esc_attr($fields['contactgegevens']['telefoonnummer']); ?>"
             class="c-contact-btn"><?php echo esc_html($fields['contactgegevens']['telefoonnummer']); ?></a>
         <div class="uk-container uk-container-large" style="position:relative;">
@@ -87,10 +89,10 @@ $no_hero = (isset($hero_settings) && is_array($hero_settings) && array_key_exist
                         viewBox="0 0 665.16 331.86">
                         <defs>
                             <style>
-                            .cls-1 {
-                                fill: #fff;
-                                stroke-width: 0px;
-                            }
+                                .cls-1 {
+                                    fill: #fff;
+                                    stroke-width: 0px;
+                                }
                             </style>
                         </defs>
                         <g id="Layer_1-2" data-name="Layer 1">

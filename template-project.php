@@ -192,11 +192,6 @@ $hero_image = get_the_post_thumbnail_url(get_the_ID(), 'large');
         </div>
     </div>
 </section>
-<style>
-    .uk-card-title {
-        line-height: 1.1 !important;
-    }
-</style>
 
 <?php
 get_footer();
