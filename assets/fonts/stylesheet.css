@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Fontin';
+    src: url('Fontin-Regular.eot');
+    src: url('Fontin-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Fontin-Regular.woff2') format('woff2'),
+        url('Fontin-Regular.woff') format('woff'),
+        url('Fontin-Regular.ttf') format('truetype'),
+        url('Fontin-Regular.svg#Fontin-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fontin';
+    src: url('Fontin-Bold.eot');
+    src: url('Fontin-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Fontin-Bold.woff2') format('woff2'),
+        url('Fontin-Bold.woff') format('woff'),
+        url('Fontin-Bold.ttf') format('truetype'),
+        url('Fontin-Bold.svg#Fontin-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,61 @@
+.txt_block {
+  padding: 70px 0px;
+}
+/* Mimic Bootstrap's "container" */
+.flex-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Mimic "row" using Flexbox */
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+  justify-content: center;
+}
+
+/* Mimic "col-10" */
+.flex-col {
+  flex: 0 0 83.3333%; /* 10 / 12 columns */
+  max-width: 83.3333%;
+}
+
+/* Optional styling for the text container */
+.txt_field-container {
+  padding-left: 20px;
+}
+.uk-card-title {
+  margin-top: 0px !important;
+}
+@media screen and (max-width: 576px) {
+  .txt_field-container {
+    padding-left: 0px;
+  }
+  .flex-row {
+    margin-left: -20px;
+  }
+}
+.project-intro {
+  padding-bottom: 50px;
+}
+.project-intro p {
+  color: #666;
+}
+.uk-section.uk-padding-large {
+  padding: 50px 0 !important;
+}
+.return .row {
+  justify-content: center;
+}
+
+.return .row .return__content-container {
+  display: flex;
+  justify-content: center;
+}
+
+.return .row .return__content-container p {
+  font-size: 18px;
+}
