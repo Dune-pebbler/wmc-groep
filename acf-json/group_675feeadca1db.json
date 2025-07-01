@@ -1368,6 +1368,45 @@
                     "acfe_flexible_modal_edit_size": false,
                     "acfe_flexible_category": false
                 },
+                "layout_6863cedfd0a76": {
+                    "key": "layout_6863cedfd0a76",
+                    "name": "sollicitatie_form",
+                    "label": "sollicitatie formulier",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_6863cedfd0a77",
+                            "label": "sollicitatie tekst veld",
+                            "name": "sollicitatie_text_field",
+                            "aria-label": "",
+                            "type": "wysiwyg",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "allow_in_bindings": 0,
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 1,
+                            "delay": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": "",
+                    "acfe_flexible_render_template": false,
+                    "acfe_flexible_render_style": false,
+                    "acfe_flexible_render_script": false,
+                    "acfe_flexible_thumbnail": false,
+                    "acfe_flexible_settings": false,
+                    "acfe_flexible_settings_size": "medium",
+                    "acfe_flexible_modal_edit_size": false,
+                    "acfe_flexible_category": false
+                },
                 "layout_68403f5d1911a": {
                     "key": "layout_68403f5d1911a",
                     "name": "recent_projects",
@@ -1446,5 +1485,5 @@
     "acfe_form": 0,
     "acfe_meta": "",
     "acfe_note": "",
-    "modified": 1749041006
+    "modified": 1751371551
 }
