@@ -24,6 +24,7 @@ $no_hero = (isset($hero_settings) && is_array($hero_settings) && array_key_exist
 	} */
 	.menu-item-800 {
 		margin-right:auto!important;
+		
 	}
 </style>
 
