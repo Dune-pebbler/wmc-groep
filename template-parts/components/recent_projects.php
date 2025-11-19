@@ -54,10 +54,10 @@ if ($recent_projects->have_posts()): ?>
                     ?>
                     <div>
                         <div class="uk-card uk-card-default uk-height-1-1">
-                            <div class="uk-card-media-top">
+                            <div class="uk-card-media-top" style="max-height:200px;">
                                 <a href="<?php the_permalink(); ?>">
                                     <img src="<?php echo esc_url($thumbnail); ?>" alt="<?php the_title_attribute(); ?>"
-                                        class="uk-width-1-1" style="height: 200px; object-fit: cover;">
+                                        class="uk-width-1-1" style="height: 100%; width:100%; object-fit: cover;">
                                 </a>
                             </div>
                             <div class="uk-card-body">
