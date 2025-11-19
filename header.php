@@ -19,8 +19,11 @@ $no_hero = (isset($hero_settings) && is_array($hero_settings) && array_key_exist
 </head>
 
 <style>
-	#menu-hoofdmenu> :nth-child(2) {
+	/* #menu-hoofdmenu> :nth-child(2) {
 		margin-right: auto;
+	} */
+	.menu-item-800 {
+		margin-right:auto;
 	}
 </style>
 
