@@ -19,16 +19,8 @@ $no_hero = (isset($hero_settings) && is_array($hero_settings) && array_key_exist
 </head>
 
 <style>
-	.main-logo {
-		transform: translate(0, -25%);
-		margin-left: 16px
-	}
-
-	@media only screen and (max-width: 768px) {
-		.main-logo {
-			transform: translate(-50%, 0);
-			left: 50%;
-		}
+	#menu-hoofdmenu:nth-child(2) {
+		margin-right:auto;
 	}
 </style>
 
@@ -38,7 +30,7 @@ $no_hero = (isset($hero_settings) && is_array($hero_settings) && array_key_exist
 	<section class="uk-section c-top<?php echo $no_hero;
 									echo (is_front_page()) ? ' c-top-home' : ''; ?>">
 		<a href="tel:<?php echo esc_attr($fields['contactgegevens']['telefoonnummer']); ?>" class="c-contact-btn"><?php echo esc_html($fields['contactgegevens']['telefoonnummer']); ?></a>
-		<a href="/" aria-label="<?php echo esc_attr(get_bloginfo('name')); ?>" class="uk-logo uk-position-center c-logo"></a>
+		<a href="/" aria-label="<?php echo esc_attr(get_bloginfo('name')); ?>" class="uk-logo uk-position-center c-logo main-logo"></a>
 		<div class="uk-container uk-container-large">
 			<div uk-sticky>
 				<a href="#" class="brand uk-visible@s uk-icon uk-totop" uk-totop uk-scroll><svg width="18" height="10" viewBox="0 0 18 10" xmlns="http://www.w3.org/2000/svg">
